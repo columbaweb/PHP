@@ -1,0 +1,3 @@
+$classname = str_replace(' ','',$fieldname ); 
+
+$classname = preg_replace('/\s+/','',$fieldname );
